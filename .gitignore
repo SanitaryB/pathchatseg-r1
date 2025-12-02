@@ -1,4 +1,4 @@
-# 忽略 cutlass（如果意外存在）
+# 忽略 cutlass
 cutlass/
 # 其他常见忽略
 *.log

@@ -53,7 +53,7 @@ def preprocess(
     img_size=1024,
 ) -> torch.Tensor:
     """Normalize pixel values and pad to a square input."""
-    # Normalize colors
+    ## Normalize colors
     x = (x - pixel_mean) / pixel_std
     # Pad
     h, w = x.shape[-2:]
